@@ -27,5 +27,7 @@ public class Problem496 {
             result[i] = map.get(nums1[i]);
         }
         return result;
+
+
     }
 }
