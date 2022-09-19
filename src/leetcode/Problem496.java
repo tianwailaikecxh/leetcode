@@ -20,6 +20,7 @@ public class Problem496 {
             }
             stack.push(nums2[i]);
         }
+
         while(!stack.isEmpty()){
             map.put(stack.pop(),-1);
         }
